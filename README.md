@@ -14,3 +14,27 @@ git clone https://github.com/peggiezx/YelpCamp.git
 cd YelpCamp
 npm install
 ```
+<h2>Built with</h2>
+<h3>Front-end</h3>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>ejs</li>
+<li>Bootstrap</li>
+<li>MapBox APIs</li>
+<h3>Back-end</h3>
+<li>express</li>
+<li>mongoDB</li>
+<li>mongoose</li>
+<li>helmet</li>
+<li>passport</li>
+<li>passport-local</li>
+<li>express-session</li>
+<li>method-override</li>
+<li>geocoder</li>
+<li>connect-flash</li>
+<li>cloudinary</li>
+
+<h3>Platforms</h3>
+<li>Heroku</li>
+<li>Cloudinary</li>
