@@ -1,7 +1,7 @@
 <% layout('layouts/boilerplate') %>
 <link rel="stylesheet" href="/stylesheets/stars.css">
 
-<div class="container mb-3">
+<div class="container mt-5 mb-3">
 
 <div class="row">
     <div class="col-6">
@@ -57,8 +57,9 @@
       <div id='map'></div>
 
     <div class="col-12 mt-5">
+      <h2>Leave a Review</h2>
+
       <% if (currentUser) { %>
-        <h2>Leave a Review</h2>
         <form action="/campgrounds/<%=campground._id%>/reviews" method = "POST" class="mb-3 validated-form" novalidate>
           <div class="mb-3">
             <fieldset class="starability-basic">
@@ -76,14 +77,17 @@
             </fieldset>
           </div>
           <div class="mb-3">
-            <label class= "form-label" for="body">Please leave your review here</label>
+            <label class= "form-label" for="body">What do you think about this place...</label>
             <textarea class="form-control-lg" name="review[body]" id="body" cols="30" rows="3" style="width: 100%; max-width: 100%;" required></textarea>
             <div class="valid-feedback">
               Looks good!
             </div>
           </div>
+         
           <button class="btn btn-success">Submit</button>
         </form>
+      <% } else {%>
+        <label class= "form-label" for="body">Please <a href="/register">register</a>  or  <a href="/login">log in</a>  to leave a review</label>
       <% } %>
     
       <% for (let review of campground.reviews) { %>

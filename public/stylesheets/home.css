@@ -5,6 +5,7 @@ body{
     background-size:cover;
     background-position: center;
 }
+
 .cover-container{
     max-width: 60vw;
 }
@@ -28,3 +29,4 @@ body{
     color: #333;
     text-shadow: none;
 }
+
