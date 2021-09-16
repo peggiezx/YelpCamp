@@ -1,4 +1,4 @@
-# YelpCamp
+<h1><img src="https://img.icons8.com/pastel-glyph/32/000000/bonfire.png"/>YelpCamp</h1>
 <p>A Node.js web application project from the <a href="https://www.udemy.com/course/the-web-developer-bootcamp/"> Udemy course created by Colt Steele</a></p>
 <a href="https://xun-zhong-yelpcamp.herokuapp.com/"><img src="https://res.cloudinary.com/peggiexplode/image/upload/v1631739772/YelpCamp/github_img_ukprqp.png"></a>
 <p></p>
